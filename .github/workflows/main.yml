@@ -1,9 +1,7 @@
 name: JCO Paper Monitor
 
 on:
-  schedule:
-    # 修改为每小时运行一次 (即每个小时的第 0 分钟触发)
-    - cron: '0 * * * *'
+  # Scheduled execution paused during translation failure investigation.
   workflow_dispatch:
 
 jobs:
