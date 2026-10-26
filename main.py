@@ -102,4 +102,5 @@ def main():
         print("没有发现新文章。")
 
 if __name__ == "__main__":
-    main()
+    # Temporarily paused while translation failures are investigated.
+    print("任务已暂停：不检查文章、不发送邮件、不更新历史记录。")
